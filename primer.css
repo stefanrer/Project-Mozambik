@@ -1,0 +1,50 @@
+﻿{это ненадо если ты  не вставила   в html тэг header}
+header { 
+    font-family: Calibri;
+    font-size: 36px;
+    padding: 10px;
+    background-color: gold;
+    border: 7px solid;
+    opacity: 1;
+    text-align: center;
+}
+{
+    body только цвет фона
+}
+body {
+    background-color:silver;
+}
+{
+    info это нижнее окно где отображаються все элементы
+}
+#info {
+    margin-top: 10px; //отступ сверху
+    text-align: center; //текст по центру
+    background-color: #FFE554; //цвет окошка
+    margin-left: 2%; //отступ слева
+    margin-right: 2%; //отступ справа
+    border: solid; //тип границы
+    padding: 50px; //оступ текста от границы
+    border-radius: 10px; //округление границы в углах
+    font-family: calibri; //пишеш калибри
+    height:auto; //Будед расширятся по колв инфы
+}
+table { //опции таблицы где у меня внутрение ссылки
+    width:100%; //ширина
+    height:10%; //высота
+    border:7px solid black; //ширина границы 7 пикселей она солидная черная
+    margin-top:10px; //отступ сверху
+}
+td { //опции ячейки
+    border:1px solid black; ширина границы 1 пикселей она солидная черная
+    width:33%; //ширина
+    font-size:35px; //размкр текста
+    text-align:center; //текст по центру
+    background-color:gold; //цвет фона
+} 
+#map { // опции карты
+    height:60%;
+}
+#c2 { // параметры викторины
+    text-align:left; //текст по левому краю
+}

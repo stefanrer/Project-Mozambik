@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Сюда введи название своей страны</title> \\название вкладки
+    <link rel="stylesheet" type="text/css" href="primer.css" /> \\ссылка на css где href вставляеш ссылку
+    <script src="primer.js"></script> \\ссылка на js где href вставляеш ссылку
+
+</head>
+<body>
+    <header>Мозамбик</header> //не обязателен это полоска под шапкой
+<table> // это ссылки на js (function)
+   <tr> 
+        <td onclick="show_textpic()">Общая информация</td>
+        <td onclick="show_test()">Викторина</td>
+        <td onclick="show_map()">Карта</td>
+   </tr>
+</table>
+    <div id="info"> //самое нижнее окошко где появляется картинка текст карта викторина
+        <div id="c1"> //то что показывается с самого начала
+            <center><img src="primer.jpg"></center> //картинка по центру
+            <h2>
+                <center> //текст по центру 
+                    Введи сюда свой текст
+                </center>
+            </h2>
+        </div>
+        <div id="c2" style="display:none;"> //то что показывается только по нажатию Сюда Викторина
+           Сюда код после тэга script
+        <div id="c3" style="display:none;"> //для карты не показывается в начале ,но по нажатию показывается
+            Сюда вставляешь iframe
+        </div>
+    </div>
+</body>
+</html>
